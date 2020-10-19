@@ -5,7 +5,7 @@ int main()
 
 {
 	system("clear");
-	int response;
+	int response = 0;
 	
 	do {
 		printf("Hello! What would you like to do today?\n");
@@ -15,7 +15,8 @@ int main()
 		printf("3) Install software\n");
 		printf("4) Exit\n\n");
 		printf("Please enter your response: ");
-	
+		
+		response = 0;
 		scanf("%d", &response);
 		system("clear");
 
@@ -32,6 +33,7 @@ int main()
             				break;
         				case 3 :
             					system("/home/a/Documents/Software_Install.sh");
+            				break;
            				case 4: 
            				return 0;
     					}
