@@ -36,10 +36,6 @@ int main()
            				return 0;
     					}
 				}
-			else (response > 4);
-				{
-					printf("The input you've given is invalid. Please give a valid answer. \n\n");
-				}
 	}
 	while(response >= 5);
 
